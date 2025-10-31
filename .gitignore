@@ -1,0 +1,32 @@
+# Environnements virtuels Python (comme tp ou venv)
+tp/
+venv/
+env/
+.env/  # Si vous avez un dossier .env pour les variables d'environnement
+
+# Dépendances installées (ex. pour Node.js, Python, etc.)
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+build/
+
+# Fichiers de machines virtuelles (VirtualBox, VMware, etc.)
+*.vdi
+*.vmdk
+*.vmx
+*.ova
+*.ovf
+VirtualBox VMs/  # Dossier complet si applicable
+VMware/          # Ou le nom de votre dossier VM
+
+# Autres fichiers courants (logs, OS, IDE)
+*.log
+.DS_Store        # macOS
+Thumbs.db        # Windows
+.vscode/         # Config VS Code (optionnel)
+.idea/           # Config PyCharm (optionnel)
+
+# Fichiers de dépendances générés (mais gardez requirements.txt !)
+!requirements.txt  # Réinclure ce fichier pour partager les dépendances
